@@ -1,5 +1,7 @@
 <?php
+// Display numbers from 1 to 100
 
-echo "Hello, World!";
-echo "This is a simple PHP script.";
+for ($i = 1; $i <= 100; $i++) {
+    echo $i . "<br>";
+}
 ?>
